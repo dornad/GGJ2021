@@ -4,13 +4,11 @@ using UnityEngine;
 using Normal.Realtime;
 using Normal.Realtime.Serialization;
 
+// Mas informacion: https://normcore.io/documentation/core-concepts/synchronizing-custom-data.html
+
 [RealtimeModel]
 public partial class GGJColorSyncModel {
     
-    /// RealtimeProperty has 3 arguments: PropertyID, Reliable, ChangeEvent
-    /// - https://normcore.io/documentation/core-concepts/synchronizing-custom-data.html#propertyid
-    /// - https://normcore.io/documentation/core-concepts/synchronizing-custom-data.html#reliable-unreliable
-    /// - https://normcore.io/documentation/core-concepts/synchronizing-custom-data.html#change-event
     [RealtimeProperty(1, true, true)]
     private Color _color;
 }
