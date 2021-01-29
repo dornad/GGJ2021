@@ -1,8 +1,8 @@
 # GGJ2021 - Los Fabulosos Prisioneros Muertos
-Global Game Jam 2021 Repository / Repositorio Global Game Jam 2021
+Repositorio Global Game Jam 2021
 
 ## Unity
-Usamos Unity 2019.4.5f1
+Usamos **Unity _2019.4.5f1_**, puedes descargarlo desde el [Download Archive/ Unity](https://unity3d.com/get-unity/download/archive).  
 
 # Participantes
 - [Daniel Rodriguez](https://github.com/dornad)
