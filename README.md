@@ -6,6 +6,6 @@ Usamos Unity 2019.4.5f1
 
 # Participantes
 - [Daniel Rodriguez](https://github.com/dornad)
-- [Oscar Ramirez](https://github.com/oscarramirez)
+- [Oscar Ramirez](https://github.com/oscaramirez)
 - [Cristian Castro](https://github.com/)
 - [Andres Castro](https://github.com/)
