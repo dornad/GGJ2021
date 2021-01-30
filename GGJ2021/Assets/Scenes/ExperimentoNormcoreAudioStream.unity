@@ -121,6 +121,58 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &160747443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1531957029821202, guid: cec929e6874b9f34a8ff954244b7e748,
+    type: 3}
+  m_PrefabInstance: {fileID: 1180582482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &160747444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160747443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4ff7916cbc1db4dae0b06d829ff79f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &160747445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160747443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -363599832, guid: 30f4fd177e1fad742be136a8237ab587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _realtime: {fileID: 160747447}
+  _sceneViewUUID: 
+  _viewUUID: ff0273bd-927a-4fe8-96ff-44f78d9800ea
+  _sceneViewPreventOwnershipTakeover: 0
+  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
+  _isRootPrefabView: 0
+  _components:
+  - componentID: 1
+    component: {fileID: 160747444}
+  _childViews: []
+--- !u!114 &160747447 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114226563030493824, guid: cec929e6874b9f34a8ff954244b7e748,
+    type: 3}
+  m_PrefabInstance: {fileID: 1180582482}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160747443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1424795628, guid: ebae63e7edba59945a994528ada1f7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
