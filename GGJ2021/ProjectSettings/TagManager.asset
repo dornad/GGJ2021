@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cursor
   - TakeObject
+  - Pesa
   layers:
   - Default
   - TransparentFX
