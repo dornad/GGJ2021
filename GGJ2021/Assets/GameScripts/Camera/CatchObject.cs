@@ -6,7 +6,7 @@ public class CatchObject : MonoBehaviour
 {
 	private Transform takeObject;
 	private bool catched = false;
-	Transform cursor;
+	public Transform cursor;
 
 	private void OnTriggerEnter(Collider other)
 	{
