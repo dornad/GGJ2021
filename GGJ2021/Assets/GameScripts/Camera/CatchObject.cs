@@ -9,7 +9,7 @@ public class CatchObject : MonoBehaviour
 	public bool isSolutionToPuzzle = false;
 	private Transform takeObject;
 	private bool catched = false;
-	Transform cursor;
+	public Transform cursor;
 
 	private void OnTriggerEnter(Collider other)
 	{
