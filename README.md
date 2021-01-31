@@ -10,5 +10,5 @@ Usamos **Unity _2019.4.5f1_**, puedes descargarlo desde el [Download Archive/ Un
 # Participantes
 - [Daniel Rodriguez](https://github.com/dornad)
 - [Oscar Ramirez](https://github.com/oscaramirez)
-- [Cristian Castro](https://github.com/)
-- [Andres Castro](https://github.com/)
+- [Cristian Castro](https://globalgamejam.org/users/cyberc3)
+- [Andres Castro](https://globalgamejam.org/users/afcastroc)
