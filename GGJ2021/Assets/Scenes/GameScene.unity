@@ -218,15 +218,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToyAnimals
       objectReference: {fileID: 0}
+    - target: {fileID: 2802304695125401464, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802304695125401464, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.753
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802304695125401464, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.678
+      objectReference: {fileID: 0}
     - target: {fileID: 7570821017971677010, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.788
+      value: -2.473
       objectReference: {fileID: 0}
     - target: {fileID: 7570821017971677010, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.371
+      value: -0.304
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570821017971677010, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.262
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20, type: 3}
