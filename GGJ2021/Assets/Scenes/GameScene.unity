@@ -198,6 +198,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 8.287
       objectReference: {fileID: 0}
+    - target: {fileID: -6523245982407118394, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.091
+      objectReference: {fileID: 0}
+    - target: {fileID: -6523245982407118394, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.494
+      objectReference: {fileID: 0}
+    - target: {fileID: -6523245982407118394, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.563
+      objectReference: {fileID: 0}
     - target: {fileID: -2351680168405467475, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -217,6 +232,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ToyAnimals
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336295114136755200, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.028
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336295114136755200, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.069
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336295114136755200, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336295114136755200, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336295114136755200, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336295114136755200, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2802304695125401464, guid: 3a4db312d1a9e7a4bb03aaa05f0f5c20,
         type: 3}
