@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CatchObject : MonoBehaviour
 {
+	public string weightValue = "12.00";
+
+	public bool isSolutionToPuzzle = false;
 	private Transform takeObject;
 	private bool catched = false;
 	Transform cursor;

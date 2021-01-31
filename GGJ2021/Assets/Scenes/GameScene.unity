@@ -577,6 +577,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135400997}
   m_Mesh: {fileID: 4300096, guid: 8d44a8bf542ec854ab6a6c818ea10b8a, type: 3}
+--- !u!1 &180738556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -543608656392197347, guid: 46a87b2426969b847a118068bc5e2058,
+    type: 3}
+  m_PrefabInstance: {fileID: 2019786429}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &180738560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180738556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d31720eaa6e4916bb9cc9ca6ad880a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleSolved: 0
+  debugCatchComponent: {fileID: 0}
+  debugResult: <no data>
+--- !u!65 &180738561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180738556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 106.67592, y: 329.99374, z: 300.00003}
+  m_Center: {x: -52.615715, y: -0.002645909, z: 0.0000019433428}
 --- !u!1001 &229991770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -937,6 +971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1 &302232725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,6 +1054,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1001 &359224533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1193,6 +1231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1001 &376353897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1454,6 +1494,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1 &444211634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,6 +1940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1001 &657581538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1975,31 +2019,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58a137e40d0932742ab5b4ff3cebea35, type: 3}
---- !u!1 &675201560 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 46a87b2426969b847a118068bc5e2058,
-    type: 3}
-  m_PrefabInstance: {fileID: 2019786429}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &675201561 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 46a87b2426969b847a118068bc5e2058,
     type: 3}
   m_PrefabInstance: {fileID: 2019786429}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &675201562
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675201560}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.15377614, z: 0.5058457}
-  m_Center: {x: 2.6165814e-10, y: 0.023690162, z: -0.027568957}
 --- !u!1 &677961451
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,6 +2102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1 &877067200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,6 +2935,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1 &937940073
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,6 +3150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!65 &961271270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3625,6 +3656,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1 &1121637973
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,6 +3737,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1 &1168002394
 GameObject:
   m_ObjectHideFlags: 0
@@ -6335,6 +6370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!65 &1191917386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7134,6 +7171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
 --- !u!1 &1545305244
 GameObject:
   m_ObjectHideFlags: 0
@@ -8268,3 +8307,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ee42b5d2b41b140a5c6d8f8ab4eb31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weightValue: 12.00
+  isSolutionToPuzzle: 0
